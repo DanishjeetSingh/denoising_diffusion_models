@@ -5,3 +5,4 @@
 ## Helpful resources
 
 - https://github.com/lucidrains/denoising-diffusion-pytorch
+- https://github.com/hojonathanho/diffusion
