@@ -7,8 +7,7 @@
 ---
 ### Noise sampling process
 
-![](results/DDPM_Uncondtional/0.jpg)
-![](results/DDPM_Uncondtional/1.jpg)
+![](results/DDPM_Uncondtional/diffusion.gif)
 
 ## Helpful resources
 
