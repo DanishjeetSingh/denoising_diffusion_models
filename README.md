@@ -9,6 +9,10 @@
 
 ![](results/DDPM_Uncondtional/diffusion.gif)
 
+---
+## Dataset used
+- [Linnaeus 5 dataset](http://chaladze.com/l5/) (64x64 version)
+
 ## Helpful resources
 
 - https://github.com/lucidrains/denoising-diffusion-pytorch
