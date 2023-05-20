@@ -11,7 +11,7 @@
 
 ---
 ## Dataset used
-- [Linnaeus 5 dataset](http://chaladze.com/l5/) (64x64 version)
+- [Landscapes dataset](https://www.kaggle.com/datasets/arnaud58/landscape-pictures)
 
 ## Helpful resources
 
