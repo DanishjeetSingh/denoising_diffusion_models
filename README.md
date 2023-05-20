@@ -5,7 +5,7 @@
 ## Early Results
 
 ---
-### Noise sampling process
+
 
 ![](results/DDPM_Uncondtional/diffusion_2.gif)
 
