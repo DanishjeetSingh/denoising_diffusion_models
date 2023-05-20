@@ -7,7 +7,7 @@
 ---
 ### Noise sampling process
 
-![](results/DDPM_Uncondtional/diffusion.gif)
+![](results/DDPM_Uncondtional/diffusion_2.gif)
 
 ---
 ## Dataset used
