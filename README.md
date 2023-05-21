@@ -8,7 +8,7 @@
 ## Results
 
 ---
-### For Unconditional Diffusion Model
+### Unconditional Diffusion Model
 
 #### Some sample images
 
@@ -21,8 +21,10 @@
 
 ---
 ## Dataset used
-- [Landscapes dataset](https://www.kaggle.com/datasets/arnaud58/landscape-pictures)
-
+- [Landscapes dataset](https://www.kaggle.com/datasets/arnaud58/landscape-pictures) 
+(for unconditional model)
+- [CIFAR-10 Resized](https://www.kaggle.com/datasets/joaopauloschuler/cifar10-64x64-resized-via-cai-super-resolution)
+  (for conditional model)
 ## Helpful resources
 
 - https://github.com/lucidrains/denoising-diffusion-pytorch
