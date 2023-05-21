@@ -7,7 +7,7 @@
 ---
 For Unconditional Diffusion Model
 
-![](samples/diffusion_2.gif)
+![](samples/diffusion.gif)
 
 ---
 ## Dataset used
