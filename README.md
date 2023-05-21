@@ -5,9 +5,9 @@
 ## Early Results
 
 ---
+For Unconditional Diffusion Model
 
-
-![](results/DDPM_Uncondtional/diffusion_2.gif)
+![](samples/diffusion_2.gif)
 
 ---
 ## Dataset used
