@@ -1,6 +1,9 @@
-# Denoising diffusion models
+# PyTorch Implementation of Denoising Diffusion Probabilistic Models
 
-- Implementation of a denoising diffusion model from the [paper](paper/2006.11239.pdf)
+## Papers implemented
+
+- [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
+
 
 ## Results
 
