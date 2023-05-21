@@ -8,11 +8,16 @@
 ## Results
 
 ---
-For Unconditional Diffusion Model
+### For Unconditional Diffusion Model
+
+#### Some sample images
 
 ![](samples/ddpm_unconditional_0.png)
 ![](samples/ddpm_unconditional_1.png)
 ![](samples/ddpm_unconditional_2.png)
+
+#### Here's a gif I made from the last 20 training epochs :)
+![](samples/ddpm_unconditional.gif)
 
 ---
 ## Dataset used
