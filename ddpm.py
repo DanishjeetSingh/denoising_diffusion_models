@@ -109,3 +109,18 @@ def launch():
 
 if __name__ == '__main__':
     launch()
+    # device = "cuda"
+    # model = UNet().to(device)
+    # ckpt = torch.load("models/DDPM_Uncondtional/ckpt.pt")
+    # model.load_state_dict(ckpt)
+    # diffusion = Diffusion(img_size=64, device=device)
+    # for i in range(3):
+    #     x = diffusion.sample(model, 8)
+    #     print(x.shape)
+    #     plt.figure(figsize=(32, 32))
+    #     plt.imshow(torch.cat([
+    #         torch.cat([i for i in x.cpu()], dim=-1),
+    #     ], dim=-2).permute(1, 2, 0).cpu())
+    #     plt.axis('off')
+    #     plt.savefig(f'samples/ddpm_unconditional_{i}.png', bbox_inches='tight')
+    # plt.show()

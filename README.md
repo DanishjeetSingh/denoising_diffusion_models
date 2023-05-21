@@ -2,12 +2,14 @@
 
 - Implementation of a denoising diffusion model from the [paper](paper/2006.11239.pdf)
 
-## Early Results
+## Results
 
 ---
 For Unconditional Diffusion Model
 
-![](samples/diffusion.gif)
+![](samples/ddpm_unconditional_0.png)
+![](samples/ddpm_unconditional_1.png)
+![](samples/ddpm_unconditional_2.png)
 
 ---
 ## Dataset used
