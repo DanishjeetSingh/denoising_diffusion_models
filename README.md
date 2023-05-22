@@ -20,6 +20,20 @@
 ![](samples/ddpm_unconditional.gif)
 
 ---
+### Conditional Diffusion model
+
+#### Some early results
+
+NO EMA, YES CFG  
+
+![](samples/ddpm_conditional_0.jpg)
+![](samples/ddpm_conditional_1.jpg)
+
+YES EMA, YES CFG  
+![](samples/ddpm_conditional_ema_0.jpg)
+![](samples/ddpm_conditional_ema_1.jpg)
+
+---
 ## Dataset used
 - [Landscapes dataset](https://www.kaggle.com/datasets/arnaud58/landscape-pictures) 
 (for unconditional model)
