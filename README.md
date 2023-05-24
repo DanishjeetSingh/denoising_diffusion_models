@@ -3,6 +3,7 @@
 ## Papers implemented
 
 - [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
+- [CLASSIFIER-FREE DIFFUSION GUIDANCE](https://arxiv.org/abs/2207.12598)
 
 
 ## Results
@@ -24,14 +25,16 @@
 
 #### Some early results
 
-NO EMA, YES CFG  
-
+  
+##### without EMA 
 ![](samples/ddpm_conditional_0.jpg)
 ![](samples/ddpm_conditional_1.jpg)
 
-YES EMA, YES CFG  
+##### with EMA (Exponential Moving Average)
 ![](samples/ddpm_conditional_ema_0.jpg)
 ![](samples/ddpm_conditional_ema_1.jpg)
+
+## Clearly the results with EMA are much better :)
 
 ---
 ## Dataset used
