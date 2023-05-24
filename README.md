@@ -60,3 +60,4 @@
 - https://github.com/lucidrains/denoising-diffusion-pytorch
 - https://github.com/hojonathanho/diffusion
 - https://www.youtube.com/watch?v=TBCRlnwJtZU
+- https://theaisummer.com/unet-architectures/
