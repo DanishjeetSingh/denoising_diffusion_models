@@ -128,4 +128,20 @@ def launch():
 
 
 if __name__ == '__main__':
-    launch()
+    # launch()
+    device = "cuda"
+    model = UNet_conditional(num_classes=10).to(device)
+    ckpt = torch.load("models/DDPM_condtional/ema_ckpt.pt")
+    model.load_state_dict(ckpt)
+    diffusion = Diffusion(img_size=64, device=device)
+    for i in range(3):
+        n = 8
+        y = torch.Tensor([6] * n).long().to(device)
+        x = diffusion.sample(model, n, y, cfg_scale=0)
+        print(x.shape)
+        plt.figure(figsize=(32, 32))
+        plt.imshow(torch.cat([
+            torch.cat([i for i in x.cpu()], dim=-1),
+        ], dim=-2).permute(1, 2, 0).cpu())
+        plt.axis('off')
+        plt.savefig(f'samples/ddpm_conditional_ema_{i}.png', bbox_inches='tight')
