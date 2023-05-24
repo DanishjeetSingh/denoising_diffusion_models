@@ -9,9 +9,9 @@
 ## Results
 
 ---
-### Unconditional Diffusion Model
+## Unconditional Diffusion Model
 
-#### Some sample images
+### Sample images
 
 ![](samples/ddpm_unconditional_0.png)
 ![](samples/ddpm_unconditional_1.png)
@@ -21,20 +21,33 @@
 ![](samples/ddpm_unconditional.gif)
 
 ---
-### Conditional Diffusion model
+## Conditional Diffusion model
 
-#### Some early results
+### Sample images
+##### All of them are frogs 🐸(*it's one of the labels in the CIFAR10 dataset*), because why not :), although maybe a horse could have been a nice choice too.
 
-  
-##### without EMA 
-![](samples/ddpm_conditional_0.jpg)
-![](samples/ddpm_conditional_1.jpg)
+### This time we have done things 4 ways, since we have CFG(Classifier free guidance) and EMA(Exponential Moving Average)
 
-##### with EMA (Exponential Moving Average)
-![](samples/ddpm_conditional_ema_0.jpg)
-![](samples/ddpm_conditional_ema_1.jpg)
+### 🚫EMA 🚫CFG
 
-## Clearly the results with EMA are much better :)
+![](samples/ddpm_conditional_0.png)
+![](samples/ddpm_conditional_1.png)
+
+### 🚫EMA ✅CFG
+![](samples/ddpm_conditional_cfg_0.png)
+![](samples/ddpm_conditional_cfg_1.png)
+
+### ✅EMA 🚫CFG
+![](samples/ddpm_conditional_ema_0.png)
+![](samples/ddpm_conditional_ema_1.png)
+
+### ✅EMA ✅CFG
+![](samples/ddpm_conditional_cfg_ema_0.png)
+![](samples/ddpm_conditional_cfg_ema_1.png)
+
+##### Note: In the CFG paper the authors mentioned heavy saturation when CFG levels were too high(i.e = 3), we are able to reproduce that same effect in the above picture. 
+
+## Clearly the results with EMA are much better generally, however CFG helps with more stable looking images :)
 
 ---
 ## Dataset used
