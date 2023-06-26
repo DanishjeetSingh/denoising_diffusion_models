@@ -5,6 +5,8 @@
 - [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
 - [CLASSIFIER-FREE DIFFUSION GUIDANCE](https://arxiv.org/abs/2207.12598)
 
+## Models
+### https://huggingface.co/singhdan/diffusion_models
 
 ## Results
 
