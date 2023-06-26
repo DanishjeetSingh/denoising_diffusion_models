@@ -120,7 +120,7 @@ def launch():
     args.epochs = 300
     args.batch_size = 14
     args.image_size = 64
-    args.num_classes = 10
+    args.num_classes = 14
     args.dataset_path = r"datasets/cifar10-64/train/"
     args.device = "cuda"
     args.lr = 3e-4
